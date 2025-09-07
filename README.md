@@ -98,7 +98,7 @@ gunicorn --bind 0.0.0.0:8000 app:app
 To test the service locally, you can use `curl`:
 
 ```bash
-curl -X POST http://localhost:5000/webhook \
+curl -X POST http://localhost:5001/webhook \
   -H "Content-Type: application/json" \
   -d '{"sender_id": "919876543210", "message": "Indiranagar 12A"}'
 ```
