@@ -47,7 +47,7 @@ Update the following environment variables in `.env`:
 ### Development
 
 ```bash
-python app.py
+flask run --port=5001 --debug
 ```
 
 The server will start on `http://localhost:5000`
